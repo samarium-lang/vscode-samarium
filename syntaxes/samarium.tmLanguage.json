@@ -100,8 +100,10 @@
                     }
                 },
                 {
-                    "name": "entity.name.function.samarium",
-                    "match": "[A-Za-z]+\\("
+                    "match": "([A-Za-z]+)\\(",
+                    "captures": {
+                        "1": { "name": "entity.name.function.samarium" }
+                    }
                 },
                 {
                     "name": "variable.name.samarium",
