@@ -1,0 +1,1 @@
+Syntax Highlighting for Samarium in VSCode

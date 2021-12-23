@@ -1,0 +1,25 @@
+{
+    "name": "samarium-language",
+    "displayName": "Samarium Language",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.63.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "samarium",
+            "aliases": ["Samarium", "samarium"],
+            "extensions": [".sm"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "samarium",
+            "scopeName": "source.samarium",
+            "path": "./syntaxes/samarium.tmLanguage.json"
+        }]
+    }
+}
