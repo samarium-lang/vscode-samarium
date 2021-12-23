@@ -2,7 +2,9 @@
     "name": "samarium-language",
     "displayName": "Samarium Language",
     "description": "",
-    "version": "0.0.1",
+    "publisher": "Samarium",
+    "repository": "https://github.com/trag1c/vscode-samarium",
+    "version": "0.1.0",
     "engines": {
         "vscode": "^1.63.0"
     },
