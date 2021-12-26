@@ -11,10 +11,11 @@
 	],
 	"repository": {
 		"strings": {
-			"name": "string.quoted.double.samarium",
-			"begin": "\"",
-			"end": "\"",
 			"patterns": [
+                {
+                    "name": "string.quoted.double.samarium",
+                    "match": "([\"])(?:(?=(\\\\?))\\2.)*?\\1"
+                },
 				{
 					"name": "constant.character.escape.samarium",
 					"match": "\\\\"
