@@ -16,10 +16,6 @@
                     "name": "string.quoted.double.samarium",
                     "match": "([\"])(?:(?=(\\\\?))\\2.)*?\\1"
                 },
-				{
-					"name": "constant.character.escape.samarium",
-					"match": "\\\\"
-				},
                 {
                     "match": "(\\${)([^}]*)(})",
                     "captures": {
