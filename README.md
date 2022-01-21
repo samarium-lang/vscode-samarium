@@ -1,1 +1,1 @@
-Syntax Highlighting for Samarium in VSCode
+Syntax Highlighting for Samarium in VSCode. See [changelog](CHANGELOG.md) for details.

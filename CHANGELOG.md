@@ -4,9 +4,23 @@ All notable changes to the "samarium-language" extension will be documented in t
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
-## [Unreleased]
+## [0.5.0] - 2022-01-22
 
-- Added a changelog
+### Added
+- Punctuation highlighting
+- Added a Changelog
+- Marked `{{ }}` and `<< >>` as brackets
+
+### Fixed
+- Adjusted keyword and operator highlighting
+
+### Changed
+- Shortened regular expressions for classes and functions
+- Updated README
+
+### Removed
+- Lambda function highlighting
+- String interpolation
 
 ## [0.4.0] - 2021-12-26
 ### Fixed
