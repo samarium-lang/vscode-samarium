@@ -47,16 +47,20 @@
         "operators": {
             "patterns": [
                 {
-                    "name": "punctuation.samarium",
-                    "match": "(\\.)"
+                    "name": "constant.language.samarium",
+                    "match": "_"
+                },
+                {
+                    "name": "keyword.operator.samarium",
+                    "match": "(->\\?|\\?~>|\\?!|!\\?|##|@@|,\\.,|<|>|:|\\+|-|&|\\||~|\\^|%|'|\\$|!|\\?\\?\\?)"
                 },
                 {
                     "name": "keyword.control.samarium",
                     "match": "(\\*|\\.{2,}|@|\\?|,,|#)"
                 },
                 {
-                    "name": "keyword.operator.samarium",
-                    "match": "(->\\?|<|>|:|\\+|-|&|\\||~|\\^|%|'|\\$|!|\\?\\?\\?)"
+                    "name": "punctuation.samarium",
+                    "match": "(\\.)"
                 }
             ]
         },

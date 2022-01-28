@@ -4,6 +4,27 @@ All notable changes to the "samarium-language" extension will be documented in t
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
+## [0.6.0] - 2022-01-28
+
+### Added
+- Marked `_` as a constant
+- Added highlighting for `,.,`
+- Added extension icon
+
+### Fixed
+- Fixed highlighting for
+  - `?~>`
+  - `?!`
+  - `!?`
+  - `##`
+  - `@@`
+  - `<>`
+  - `..`
+  - `...`
+
+### Changed
+- Improved the highlighting order
+
 ## [0.5.0] - 2022-01-22
 
 ### Added
@@ -46,3 +67,4 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 [0.3.0]: https://github.com/trag1c/vscode-samarium/compare/0.2.0...0.3.0
 [0.4.0]: https://github.com/trag1c/vscode-samarium/compare/0.3.0...0.4.0
 [0.5.0]: https://github.com/trag1c/vscode-samarium/compare/0.4.0...0.5.0
+[0.6.0]: https://github.com/trag1c/vscode-samarium/compare/0.5.0...0.6.0
