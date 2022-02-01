@@ -4,6 +4,11 @@ All notable changes to the "samarium-language" extension will be documented in t
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
+## [0.6.1] - 2022-02-01
+
+### Added
+- Added support for digits in identifiers.
+
 ## [0.6.0] - 2022-01-28
 
 ### Added
@@ -68,3 +73,4 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 [0.4.0]: https://github.com/trag1c/vscode-samarium/compare/0.3.0...0.4.0
 [0.5.0]: https://github.com/trag1c/vscode-samarium/compare/0.4.0...0.5.0
 [0.6.0]: https://github.com/trag1c/vscode-samarium/compare/0.5.0...0.6.0
+[0.6.1]: https://github.com/trag1c/vscode-samarium/compare/0.6.0...0.6.1

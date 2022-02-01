@@ -5,7 +5,7 @@
     "publisher": "Samarium",
     "repository": "https://github.com/trag1c/vscode-samarium.git",
     "icon": "images/smgradienttransparent.png",
-    "version": "0.6.0",
+    "version": "0.6.1",
     "engines": {
         "vscode": "^1.63.0"
     },
