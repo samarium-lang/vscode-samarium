@@ -3,9 +3,9 @@
     "displayName": "Samarium Language",
     "description": "",
     "publisher": "Samarium",
-    "repository": "https://github.com/trag1c/vscode-samarium.git",
-    "icon": "images/smgradienttransparent.png",
-    "version": "0.6.2",
+    "repository": "https://github.com/samarium-lang/vscode-samarium.git",
+    "icon": "images/SamariumWhiteCircle.png",
+    "version": "0.7.0",
     "engines": {
         "vscode": "^1.63.0"
     },

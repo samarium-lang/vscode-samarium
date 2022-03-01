@@ -4,6 +4,19 @@ All notable changes to the "samarium-language" extension will be documented in t
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
+## [0.7.0] - 2022-03-01
+
+### Added
+- Escape sequence highlighting
+
+### Fixed
+- Multiline string highlighting
+
+### Changed
+- Changed the marketplace icon
+- Improved operator and keyword recognition
+- Updated repository links
+
 ## [0.6.2] - 2022-02-03
 
 ### Fixed
@@ -72,11 +85,12 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 ### Added
 - Basic syntax highlighting
 
-[0.1.0]: https://github.com/trag1c/vscode-samarium/releases/tag/0.1.0
-[0.2.0]: https://github.com/trag1c/vscode-samarium/compare/0.1.0...0.2.0
-[0.3.0]: https://github.com/trag1c/vscode-samarium/compare/0.2.0...0.3.0
-[0.4.0]: https://github.com/trag1c/vscode-samarium/compare/0.3.0...0.4.0
-[0.5.0]: https://github.com/trag1c/vscode-samarium/compare/0.4.0...0.5.0
-[0.6.0]: https://github.com/trag1c/vscode-samarium/compare/0.5.0...0.6.0
-[0.6.1]: https://github.com/trag1c/vscode-samarium/compare/0.6.0...0.6.1
-[0.6.2]: https://github.com/trag1c/vscode-samarium/compare/0.6.1...0.6.2
+[0.1.0]: https://github.com/samarium-lang/vscode-samarium/releases/tag/0.1.0
+[0.2.0]: https://github.com/samarium-lang/vscode-samarium/compare/0.1.0...0.2.0
+[0.3.0]: https://github.com/samarium-lang/vscode-samarium/compare/0.2.0...0.3.0
+[0.4.0]: https://github.com/samarium-lang/vscode-samarium/compare/0.3.0...0.4.0
+[0.5.0]: https://github.com/samarium-lang/vscode-samarium/compare/0.4.0...0.5.0
+[0.6.0]: https://github.com/samarium-lang/vscode-samarium/compare/0.5.0...0.6.0
+[0.6.1]: https://github.com/samarium-lang/vscode-samarium/compare/0.6.0...0.6.1
+[0.6.2]: https://github.com/samarium-lang/vscode-samarium/compare/0.6.1...0.6.2
+[0.7.0]: https://github.com/samarium-lang/vscode-samarium/compare/0.6.2...0.7.0
