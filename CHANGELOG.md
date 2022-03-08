@@ -4,6 +4,11 @@ All notable changes to the "samarium-language" extension will be documented in t
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
+## [0.7.1] - 2022-03-08
+
+### Changed
+- Improved class recognition to work with decorated functions
+
 ## [0.7.0] - 2022-03-01
 
 ### Added
@@ -94,3 +99,4 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 [0.6.1]: https://github.com/samarium-lang/vscode-samarium/compare/0.6.0...0.6.1
 [0.6.2]: https://github.com/samarium-lang/vscode-samarium/compare/0.6.1...0.6.2
 [0.7.0]: https://github.com/samarium-lang/vscode-samarium/compare/0.6.2...0.7.0
+[0.7.1]: https://github.com/samarium-lang/vscode-samarium/compare/0.7.0...0.7.1
