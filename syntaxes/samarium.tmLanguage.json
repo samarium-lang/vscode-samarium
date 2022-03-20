@@ -111,7 +111,7 @@
                     }
                 },
                 {
-                    "match": "([A-Za-z0-9]+|=>)((?:\\s*[A-Za-z0-9]+)*)\\s*(\\*)\\s*",
+                    "match": "([A-Za-z0-9]+|=>)((?:\\s*[A-Za-z0-9]+\\s*(?:\\?|\\.{3})?)*)\\s*(\\*)\\s*",
                     "captures": {
                         "1": { "name": "entity.name.function.samarium" },
                         "2": { "name": "variable.parameter.samarium" },
