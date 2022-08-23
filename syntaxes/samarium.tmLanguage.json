@@ -81,6 +81,35 @@
                 }
             ]
         },
+        "names": {
+            "patterns": [
+                {
+                    "match": "^[\\t }]*(\\@)[\\s\\n]*([A-Za-z0-9]+)",
+                    "captures": {
+                        "1": { "name": "keyword.control.samarium" },
+                        "2": { "name": "entity.name.class.samarium" }
+                    }
+                },
+                {
+                    "match": "([A-Za-z0-9_]+|=>)((?:\\s*[A-Za-z0-9_]+\\s*(?:\\?|\\.{3})?)*)\\s*(\\*)\\s*",
+                    "captures": {
+                        "1": { "name": "entity.name.function.samarium" },
+                        "2": { "name": "variable.parameter.samarium" },
+                        "3": { "name": "keyword.control.samarium" }
+                    }
+                },
+                {
+                    "match": "([A-Za-z0-9_]+)\\(",
+                    "captures": {
+                        "1": { "name": "entity.name.function.samarium" }
+                    }
+                },
+                {
+                    "name": "variable.name.samarium",
+                    "match": "[A-Za-z0-9_]+"
+                }
+            ]
+        },
         "operators": {
             "patterns": [
                 {
@@ -98,35 +127,6 @@
                 {
                     "name": "punctuation.samarium",
                     "match": "(\\.|<<|>>)"
-                }
-            ]
-        },
-        "names": {
-            "patterns": [
-                {
-                    "match": "^[\\t }]*(\\@)[\\s\\n]*([A-Za-z0-9]+)",
-                    "captures": {
-                        "1": { "name": "keyword.control.samarium" },
-                        "2": { "name": "entity.name.class.samarium" }
-                    }
-                },
-                {
-                    "match": "([A-Za-z0-9]+|=>)((?:\\s*[A-Za-z0-9]+\\s*(?:\\?|\\.{3})?)*)\\s*(\\*)\\s*",
-                    "captures": {
-                        "1": { "name": "entity.name.function.samarium" },
-                        "2": { "name": "variable.parameter.samarium" },
-                        "3": { "name": "keyword.control.samarium" }
-                    }
-                },
-                {
-                    "match": "([A-Za-z0-9]+)\\(",
-                    "captures": {
-                        "1": { "name": "entity.name.function.samarium" }
-                    }
-                },
-                {
-                    "name": "variable.name.samarium",
-                    "match": "[A-Za-z0-9]+"
                 }
             ]
         }
