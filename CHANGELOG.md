@@ -7,8 +7,8 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 ## [0.9.0] - 2022-08-23
 
 ### Fixed
-- Variables, functions and classes underscore support in their names
-- Decorated class highlighting (Samarium 0.3.0)
+- Variables, functions and classes underscore support in their names (Samarium 0.3.0)
+- Decorated class highlighting (Samarium 0.2.0)
 
 ### Removed
 - `_` literal (Samarium 0.3.0)
