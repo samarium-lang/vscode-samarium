@@ -113,10 +113,6 @@
         "operators": {
             "patterns": [
                 {
-                    "name": "constant.language.samarium",
-                    "match": "_"
-                },
-                {
                     "name": "keyword.operator.samarium",
                     "match": "(<(?!-)|(?<=<)<|(?<!-)>|:|\\+|(?:(?<=<<)-|(?<!<)-)(?!>)|&|\\||\\^)"
                 },
