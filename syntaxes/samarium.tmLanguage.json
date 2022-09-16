@@ -84,10 +84,12 @@
         "names": {
             "patterns": [
                 {
-                    "match": "^[\\t }]*(\\@)[\\s\\n]*([A-Za-z0-9]+)",
+                    "match": "^(?:(\\w+)\\s*(@)\\s+)?(@)\\s*(\\w+)",
                     "captures": {
-                        "1": { "name": "keyword.control.samarium" },
-                        "2": { "name": "entity.name.class.samarium" }
+                        "1": { "name": "variable.name.samarium" },
+                        "2": { "name": "keyword.control.samarium" },
+                        "3": { "name": "keyword.control.samarium" },
+                        "4": { "name": "entity.name.class.samarium" }
                     }
                 },
                 {
