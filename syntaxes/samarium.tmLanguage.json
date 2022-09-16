@@ -84,7 +84,7 @@
         "names": {
             "patterns": [
                 {
-                    "match": "^(?:(\\w+)\\s*(@)\\s+)?(@)\\s*(\\w+)",
+                    "match": "^(?:(\\w+)\\s*(@)\\s+)?(@)\\s*(\\w+|=>)",
                     "captures": {
                         "1": { "name": "variable.name.samarium" },
                         "2": { "name": "keyword.control.samarium" },
