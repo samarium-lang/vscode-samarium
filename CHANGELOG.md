@@ -4,6 +4,20 @@ All notable changes to the "samarium-language" extension will be documented in t
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
+## [0.9.0] - 2022-09-16
+
+### Changed
+- Underscores can now be used in identifiers (Samarium 0.3.0) by [@qexat](https://github.com/qexat)
+
+### Fixed
+- Decorated class highlighting (co-authored by [@qexat](https://github.com/qexat))
+- File I/O operator highlighting
+- MAIN/EXIT operator highlighting
+- `~` now belongs to the same category as other bitwise operators
+
+### Removed
+- `_` constant (Samarium 0.3.0) by [@qexat](https://github.com/qexat)
+
 ## [0.8.0] - 2022-03-20
 
 ### Changed
@@ -106,3 +120,4 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 [0.7.0]: https://github.com/samarium-lang/vscode-samarium/compare/0.6.2...0.7.0
 [0.7.1]: https://github.com/samarium-lang/vscode-samarium/compare/0.7.0...0.7.1
 [0.8.0]: https://github.com/samarium-lang/vscode-samarium/compare/0.7.1...0.8.0
+[0.9.0]: https://github.com/samarium-lang/vscode-samarium/compare/0.8.0...0.9.0
