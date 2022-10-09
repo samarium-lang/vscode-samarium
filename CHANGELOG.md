@@ -4,6 +4,14 @@ All notable changes to the "samarium-language" extension will be documented in t
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
+## Unreleased
+
+### Added
+- New keywords: `~'*` and `<=` by [@sujal-goswami](https://github.com/sujal-goswami)
+
+### Fixed
+- `x**` is no longer treated as a function definition
+
 ## [0.9.0] - 2022-09-16
 
 ### Changed
