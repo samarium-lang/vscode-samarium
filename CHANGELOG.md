@@ -4,7 +4,7 @@ All notable changes to the "samarium-language" extension will be documented in t
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
-## Unreleased
+## [0.10.0] - 2022-11-01
 
 ### Added
 - New keywords: `~'*` and `<=` by [@sujal-goswami](https://github.com/sujal-goswami)
@@ -131,3 +131,4 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 [0.7.1]: https://github.com/samarium-lang/vscode-samarium/compare/0.7.0...0.7.1
 [0.8.0]: https://github.com/samarium-lang/vscode-samarium/compare/0.7.1...0.8.0
 [0.9.0]: https://github.com/samarium-lang/vscode-samarium/compare/0.8.0...0.9.0
+[0.10.0]: https://github.com/samarium-lang/vscode-samarium/compare/0.9.0...0.10.0
