@@ -9,6 +9,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 ### Added
 - New keywords: `~'*` and `<=` by [@sujal-goswami](https://github.com/sujal-goswami)
 - Support for new special method syntax
+- Treating PascalCase names as classes
 
 ### Fixed
 - `x**` is no longer treated as a function definition
