@@ -4,6 +4,11 @@ All notable changes to the "samarium-language" extension will be documented in t
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
+## [0.11.1] - 2022-11-13
+
+### Fixed
+- Made calls space independent
+
 ## [0.11.0] - 2022-11-09
 
 ### Added
@@ -148,3 +153,4 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 [0.10.0]: https://github.com/samarium-lang/vscode-samarium/compare/0.9.0...0.10.0
 [0.10.1]: https://github.com/samarium-lang/vscode-samarium/compare/0.10.0...0.10.1
 [0.11.0]: https://github.com/samarium-lang/vscode-samarium/compare/0.10.1...0.11.0
+[0.11.1]: https://github.com/samarium-lang/vscode-samarium/compare/0.11.0...0.11.1

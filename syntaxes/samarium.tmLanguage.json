@@ -101,13 +101,13 @@
                     }
                 },
                 {
-                    "match": "((?:[A-Z]\\w*)+)\\(?",
+                    "match": "((?:[A-Z]\\w*)+)\\s*\\(?",
                     "captures": {
                         "1": { "name": "entity.name.class.samarium" }
                     }
                 },
                 {
-                    "match": "(\\w+)\\(",
+                    "match": "(\\w+)\\s*\\(",
                     "captures": {
                         "1": { "name": "entity.name.function.samarium" }
                     }
