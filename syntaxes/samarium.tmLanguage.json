@@ -77,7 +77,7 @@
             "patterns": [
                 {
                     "name": "constant.numeric.samarium",
-                    "match": "/|\\\\"
+                    "match": "/|\\\\|`"
                 }
             ]
         },

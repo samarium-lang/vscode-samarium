@@ -4,6 +4,11 @@ All notable changes to the "samarium-language" extension will be documented in t
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
+## [0.12.0]
+
+### Added
+- `` ` `` is now highlighted as a number literal
+
 ## [0.11.2] - 2022-12-07
 
 ### Fixed
@@ -160,3 +165,4 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 [0.11.0]: https://github.com/samarium-lang/vscode-samarium/compare/0.10.1...0.11.0
 [0.11.1]: https://github.com/samarium-lang/vscode-samarium/compare/0.11.0...0.11.1
 [0.11.2]: https://github.com/samarium-lang/vscode-samarium/compare/0.11.1...0.11.2
+[0.12.0]: https://github.com/samarium-lang/vscode-samarium/compare/0.11.2...0.12.0
